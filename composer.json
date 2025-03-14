@@ -14,7 +14,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/siberdayi/rank.git"  # GitHub reposunun URL'si
+            "url": "https://github.com/siberdayi/rank.git"
         }
     ],
     "extra": {
@@ -28,5 +28,5 @@
         "sort-packages": true
     },
     "prefer-stable": true,
-    "minimum-stability": "dev"  # Geliştirme sürümleri için dev olarak ayarlıyoruz
+    "minimum-stability": "dev"
 }
