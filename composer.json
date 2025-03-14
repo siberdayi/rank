@@ -11,10 +11,22 @@
             "Siberdayi\\Rank\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/siberdayi/rank.git"  # GitHub reposunun URL'si
+        }
+    ],
     "extra": {
         "flarum-extension": {
             "title": "Rank Extension",
             "icon": "fa-star"
         }
-    }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"  # Geliştirme sürümleri için dev olarak ayarlıyoruz
 }
